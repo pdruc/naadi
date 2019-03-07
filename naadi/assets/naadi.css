@@ -1,0 +1,120 @@
+:root {
+	--background: #191919;
+	--module: #3d4144;
+	--font_main: #ffffff;
+	--font_secondary: #d9b310;
+	--other: #5e7ea5;
+}
+
+.naadi-gui {
+	background-color: var(--background);
+	font-family: "Ubuntu", sans-serif;
+	letter-spacing: normal;
+    word-spacing: normal;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.naadi-header {
+	width: 95%;
+	text-align: center;
+	vertical-align: center;
+	color: var(--font_main);
+	background-color: var(--module);
+	border-width: 2px;
+    border-style: solid;
+	margin: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.naadi-module {
+	width: 95%;
+	text-align: left;
+	color: var(--font_main);
+	background-color: var(--module);
+	border-width: 2px;
+    border-style: solid;
+	margin: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	padding-top: 0px;
+}
+
+.naadi-pasuse {
+	border-color: var(--font_main);
+}
+
+.naadi-text {
+	color: var(--font_main);
+	font-size: 16px;
+	margin: 5px
+}
+
+.naadi-small-text {
+	color: var(--font_secondary);
+	font-size: 12px;
+	font-style: oblique;
+	margin: 5px
+}
+
+.naadi-button {
+	width: 90%;
+	color: var(--font_secondary);
+	background-color: var(--other);
+	border-color: var(--font_main);
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 40px;
+	padding: 5px;
+	margin: 5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.naadi-button[disabled] {
+	background-color: var(--module);
+	border-style: dashed;
+}
+
+.naadi-dropdown {
+	width: 90%;
+	color: var(--background);
+	cursor: pointer;
+	margin: 0px;
+}
+
+.naadi-checklist {
+	color: var(--font_secondary)
+}
+
+.naadi-slider {
+	width: 90%;
+	color: var(--font_secondary);
+	margin: auto;
+	margin-bottom: 30px;
+}
+
+.naadi-grid20 {
+	display: grid;
+	vertical-align: center;
+	grid-template-columns: 40% 60%;
+	align-items: center;
+	grid-gap: 20px;
+}
+
+.naadi-grid30 {
+	display: grid;
+	vertical-align: center;
+	grid-template-columns: 33% 33% 33%;
+	align-items: center;
+	grid-gap: 20px;
+}
+
+.naadi-datatable {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}

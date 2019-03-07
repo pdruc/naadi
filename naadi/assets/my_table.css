@@ -1,0 +1,17 @@
+.my-table {
+	padding: 10px;
+	width: 100%;
+    empty-cells: show;
+}
+
+.my-table th, tr {
+	padding: 10px;
+	width: 100%;
+	border-bottom: 1px solid;
+	border-color: #D9B310;
+	padding: 5px;
+	vertical-align: center;
+	text-align: left;
+}
+	
+.my-table tr:nth-child(even) {background-color: #1D2731;}
